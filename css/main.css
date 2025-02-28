@@ -63,6 +63,10 @@ a {
     text-decoration: underline;
 }
 
+.purple-bg a {
+    color: var(--color-white);
+}
+
 a:hover {
     color: var(--color-default);
 }
@@ -474,31 +478,31 @@ textarea:focus-visible {
     text-decoration: underline !important;
 }
 
-.blue-bg .btn-secondary {
+.purple-bg .btn-secondary {
     background-color: var(--color-default);
     color: var(--color-white);
-    border: 1px solid var(--color-white);
+    /* border: 1px solid var(--color-white); */
     border-radius: 30px;
     font-style: normal;
     font-weight: 400;
     padding: 10px 40px;
 }
 
-.blue-bg .btn-secondary:hover,
-.blue-bg .btn-secondary:focus {
+.purple-bg .btn-secondary:hover,
+.purple-bg  .btn-secondary:focus {
     background-color: var(--color-secondary) !important;
     color: var(--color-default) !important;
-    border: 1px solid var(--color-default) !important;
+    border: 1px solid transparent !important;
     -webkit-transition: all .3s linear 0s;
     transition: all .3s linear 0s;
     text-decoration: underline !important;
 }
 
-.blue-bg .btn-secondary.btn-color-white:hover,
-.blue-bg .btn-secondary.btn-color-white:focus {
+.purple-bg  .btn-secondary.btn-color-white:hover,
+.purple-bg  .btn-secondary.btn-color-white:focus {
     background-color: var(--color-default) !important;
     color: var(--color-white) !important;
-    border: 1px solid var(--color-white) !important;
+    border: 1px solid transparent !important;
     -webkit-transition: all .3s linear 0s;
     transition: all .3s linear 0s;
     text-decoration: underline !important;
