@@ -1074,7 +1074,7 @@ a:hover .info-card .svg-arrow {
 }
 
 .left-container {
-    background-color: var(--color-default);
+    background-color: var(--color-purple);
     color: var(--color-white);
     padding: 10px 30px 40px 70px;
     height: 100%;
