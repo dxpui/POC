@@ -1470,61 +1470,6 @@ table td {
     margin-bottom: 1px !important;
 }
 
-@media print {
-
-    .footer,
-    .help,
-    .back,
-    .btn-edit,
-    .next-step,
-    .download,
-    .step,
-    .save,
-    #non-printable {
-        display: none !important;
-    }
-
-    #printable {
-        display: block;
-    }
-
-    body {
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-    }
-
-    .onlyPrint {
-        display: block !important;
-    }
-
-    .collapse {
-        display: block !important;
-        height: auto !important;
-    }
-
-    .order-last-div {
-        order: 6;
-    }
-
-    .accordian-panel .accordion-button::after {
-        background-image: none !important;
-    }
-
-    @media (orientation: landscape) {
-        .order-last-div {
-            width: 100%;
-        }
-
-        .order-first-div {
-            width: 100%;
-        }
-    }
-
-    #epi-quickNavigator {
-        display: none !important;
-    }
-}
-
 .help {
     width: 100%;
     top: 60px;
@@ -1691,4 +1636,67 @@ table td {
 .left-nav a:hover.active .arrow-white circle {
     fill: transparent;
     stroke: var(--color-yellow) !important;
+}
+
+@media print {
+
+    .footer,
+    .help,
+    .back,
+    .btn-edit,
+    .next-step,
+    .download,
+    .step,
+    .save,
+    #non-printable {
+        display: none !important;
+    }
+
+    #printable {
+        display: block;
+    }
+
+    body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .onlyPrint {
+        display: block !important;
+    }
+
+    .collapse {
+        display: block !important;
+        height: auto !important;
+    }
+
+    .order-last-div {
+        order: 6;
+    }
+
+    .accordian-panel .accordion-button::after {
+        background-image: none !important;
+    }
+
+    @media (orientation: landscape) {
+        .order-last-div {
+            width: 100%;
+        }
+
+        .order-first-div {
+            width: 100%;
+        }
+    }
+
+    #epi-quickNavigator {
+        display: none !important;
+    }
+	
+	.left-container.left-container-with-link {
+	   display:none;	
+	}
+	
+	.safety-measures {
+	   display:block !important;	
+	}
 }
