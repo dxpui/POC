@@ -529,6 +529,13 @@ textarea:focus-visible {
     text-decoration: none;
 }
 
+.purple-bg .btn-secondary.disabled {
+    background-color: #C780AB !important;
+    color: var(--color-white) !important;
+    border: 1px solid var(--color-gray) !important;
+    text-decoration: none;
+}
+
 .btn-secondary.disabled:hover,
 .btn-secondary.disabled:focus {
     background-color: transparent !important;
@@ -1601,11 +1608,11 @@ table td {
 }
 
 .left-container ul a:hover {
-    color: var(--color-secondary);
+    color: var(--color-yellow);
 }
 
 .left-container-header:hover {
-    color: var(--color-secondary);
+    color: var(--color-yellow);
 }
 
 .numberCircle {
@@ -1665,13 +1672,13 @@ table td {
 .left-nav a .arrow-white path,
 .left-nav a .arrow-white circle {
     fill: var(--color-white);
-    stroke: var(--color-default);
+    stroke: var(--color-purple);
 }
 
 .left-nav a:hover .arrow-white path,
 .left-nav a:hover .arrow-white circle {
-    fill: var(--color-secondary);
-    stroke: var(--color-default);
+    fill: var(--color-yellow);
+    stroke: var(--color-purple);
 }
 
 .left-nav a.active .arrow-white path,
@@ -1683,5 +1690,5 @@ table td {
 .left-nav a:hover.active .arrow-white path,
 .left-nav a:hover.active .arrow-white circle {
     fill: transparent;
-    stroke: var(--color-secondary) !important;
+    stroke: var(--color-yellow) !important;
 }
