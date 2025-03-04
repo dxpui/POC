@@ -1696,7 +1696,10 @@ table td {
 	   display:none;	
 	}
 	
-	.safety-measures {
+	.safety-measures-pdf {
 	   display:block !important;	
+	}
+	.info-card.bg-white {
+	  display : none !important;	
 	}
 }
