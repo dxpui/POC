@@ -1602,7 +1602,7 @@ table td {
 }
 
 .arrow-with-text li a {
-    color: var(--color-default);
+    color: var(--color-white);
 }
 
 .arrow-with-text li a:hover {
