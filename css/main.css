@@ -1265,7 +1265,7 @@ a:hover .info-card .svg-arrow {
 }
 
 .panel-border-bottom:last-child {
-    border-bottom: 1px solid var(--color-white) !important
+   /* border-bottom: 1px solid var(--color-white) !important*/
 }
 
 .container-input,
