@@ -27,7 +27,7 @@
     --color-anchor: #4100C2;
     --color-black: #000000;
     --color-gray: #D4D4D4;
-    --color-light-gray: #F2F2F2;
+    --color-light-gray: #EFEFEF;
     --color-outline-focus: #FF8A00;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     --btn-focus-box-shadow: 0 0 0 0.25rem rgb(255 137 0 / 100%);
@@ -864,7 +864,8 @@ button.accordion-button.accordion-head {
 }
 
 .accordian-panel .accordion-button::after {
-    background-image: url("../assets/img/web-icons/Accordion expand.svg");
+    background-image: url("../assets/img/web-icons/Accordion expand - blue.svg");
+	
     transform: scale(.7) !important;
     color: var(--color-default);
     background-size: 48px 48px;
@@ -872,7 +873,7 @@ button.accordion-button.accordion-head {
 }
 
 .accordian-panel .accordion-button:not(.collapsed)::after {
-    background-image: url("../assets/img/web-icons/Accordion\ contract.svg");
+    background-image: url("../assets/img/web-icons/Accordion contract - blue.svg");
     font-size: 2.5rem;
     color: var(--color-default);
 }
@@ -1636,6 +1637,10 @@ table td {
 .left-nav a:hover.active .arrow-white circle {
     fill: transparent;
     stroke: var(--color-yellow) !important;
+}
+
+ol, ul {
+    padding-left: 1rem;
 }
 
 @media print {
