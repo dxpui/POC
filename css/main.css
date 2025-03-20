@@ -1116,6 +1116,7 @@ a:hover .info-card .svg-arrow {
 .left-container ul a {
     color: var(--color-white);
     margin-bottom: 15px;
+	text-decoration: none;
 }
 
 /* .left-container ul a.active {
