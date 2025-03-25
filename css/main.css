@@ -755,7 +755,7 @@ textarea:focus-visible {
     font-size: 1.188rem;
     position: relative;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     text-align: left;
     padding: 15px;
     margin-bottom: 10px;
