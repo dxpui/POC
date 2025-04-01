@@ -728,7 +728,7 @@ textarea:focus-visible {
     top: 0;
     left: 0;
     color: var(--color-white);
-    background-color: var(--color-default);
+    background-color: var(--color-purple);
     padding: 25px;
     transform: translateY(-100%);
     transition: transform .3s;
