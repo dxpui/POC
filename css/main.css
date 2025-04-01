@@ -435,6 +435,7 @@ textarea:focus-visible {
     color: var(--color-white);
     border: 1px solid var(--color-default);
     border-radius: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     padding: 10px 30px;
@@ -463,6 +464,7 @@ textarea:focus-visible {
     color: var(--color-default);
     border: 1px solid var(--color-default);
     border-radius: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     padding: 10px 40px;
@@ -481,7 +483,7 @@ textarea:focus-visible {
 .purple-bg .btn-secondary {
     background-color: var(--color-default);
     color: var(--color-white);
-    /* border: 1px solid var(--color-white); */
+    border: 1px solid transparent;
     border-radius: 30px;
     font-style: normal;
     font-weight: 400;
@@ -531,8 +533,8 @@ textarea:focus-visible {
 
 .purple-bg .btn-secondary.disabled {
     background-color: #C780AB !important;
-    color: var(--color-white) !important;
-    border: 1px solid var(--color-gray) !important;
+    color: var(--color-default) !important;
+    border: 1px solid rgba(212, 212, 212, .5) !important;
     text-decoration: none;
 }
 
