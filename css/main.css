@@ -532,8 +532,8 @@ textarea:focus-visible {
 }
 
 .purple-bg .btn-secondary.disabled {
-    background-color: #C780AB !important;
-    color: var(--color-default) !important;
+    background-color: #c780ab !important;
+    color: var(--color-purple) !important;
     border: 1px solid rgba(212, 212, 212, .5) !important;
     text-decoration: none;
 }
