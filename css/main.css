@@ -18,7 +18,7 @@
     /* Page headers 4*/
     --color-red: #E30052;
     /* Page headers 5*/
-    --color-purple: #8F0057;
+    --color-burgundy: #8F0057;
     /* Page headers 6*/
     --color-megenta: #C400ED;
     /* Page White colour*/
@@ -63,7 +63,7 @@ a {
     text-decoration: underline;
 }
 
-.purple-bg a {
+.burgundy-bg a {
     color: var(--color-white);
 }
 
@@ -369,8 +369,8 @@ textarea:focus-visible {
     color: var(--color-white);
 }
 
-.purple-bg {
-    background-color: var(--color-purple);
+.burgundy-bg {
+    background-color: var(--color-burgundy);
     color: var(--color-white);
 }
 
@@ -480,7 +480,7 @@ textarea:focus-visible {
     text-decoration: underline !important;
 }
 
-.purple-bg .btn-secondary {
+.burgundy-bg .btn-secondary {
     background-color: var(--color-default);
     color: var(--color-white);
     border: 1px solid transparent;
@@ -490,8 +490,8 @@ textarea:focus-visible {
     padding: 10px 40px;
 }
 
-.purple-bg .btn-secondary:hover,
-.purple-bg  .btn-secondary:focus {
+.burgundy-bg .btn-secondary:hover,
+.burgundy-bg  .btn-secondary:focus {
     background-color: var(--color-secondary) !important;
     color: var(--color-default) !important;
     border: 1px solid transparent !important;
@@ -500,8 +500,8 @@ textarea:focus-visible {
     text-decoration: underline !important;
 }
 
-.purple-bg  .btn-secondary.btn-color-white:hover,
-.purple-bg  .btn-secondary.btn-color-white:focus {
+.burgundy-bg  .btn-secondary.btn-color-white:hover,
+.burgundy-bg  .btn-secondary.btn-color-white:focus {
     background-color: var(--color-default) !important;
     color: var(--color-white) !important;
     border: 1px solid transparent !important;
@@ -531,9 +531,9 @@ textarea:focus-visible {
     text-decoration: none;
 }
 
-.purple-bg .btn-secondary.disabled {
+.burgundy-bg .btn-secondary.disabled {
     background-color: #c780ab !important;
-    color: var(--color-purple) !important;
+    color: var(--color-burgundy) !important;
     border: 1px solid rgba(212, 212, 212, .5) !important;
     text-decoration: none;
 }
@@ -730,7 +730,7 @@ textarea:focus-visible {
     top: 0;
     left: 0;
     color: var(--color-white);
-    background-color: var(--color-default);
+    background-color: var(--color-burgundy);
     padding: 25px;
     transform: translateY(-100%);
     transition: transform .3s;
@@ -1088,7 +1088,7 @@ a:hover .info-card .svg-arrow {
 }
 
 .left-container {
-    background-color: var(--color-purple);
+    background-color: var(--color-burgundy);
     color: var(--color-white);
     padding: 10px 30px 40px 70px;
     height: 100%;
@@ -1621,13 +1621,13 @@ table td {
 .left-nav a .arrow-white path,
 .left-nav a .arrow-white circle {
     fill: var(--color-white);
-    stroke: var(--color-purple);
+    stroke: var(--color-burgundy);
 }
 
 .left-nav a:hover .arrow-white path,
 .left-nav a:hover .arrow-white circle {
     fill: var(--color-yellow);
-    stroke: var(--color-purple);
+    stroke: var(--color-burgundy);
 }
 
 .left-nav a.active .arrow-white path,
