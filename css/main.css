@@ -777,6 +777,26 @@ a:hover .info-card {
     text-decoration: none;
 }
 
+.info-card.with-icon .info-card-header {
+    width: auto;
+    margin: 0 10px;
+}
+
+.info-card.with-icon .card-with-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+.info-card.with-icon .card-with-icon .icon-container{
+    color: var(--color-white);
+    background: var(--color-default);
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
 a:focus-visible .info-card {
     background-color: var(--color-secondary);
     transition: all 0.3s ease-in-out;
