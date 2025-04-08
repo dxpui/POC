@@ -1236,11 +1236,8 @@ a:hover .info-card .svg-arrow {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.footer ul li {
-    display: inline;
-    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer ul li a {
@@ -1255,6 +1252,9 @@ a:hover .info-card .svg-arrow {
 }
 
 @media(max-width: 992px) {
+    .footer ul {
+        display: block;
+    }
     .footer ul li {
         display: block;
         margin: 20px 0;
