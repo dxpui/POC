@@ -113,6 +113,11 @@ h1,
     letter-spacing: -0.48px;
 }
 
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+	background-color: var(--color-default);
+	color: var(--color-white);
+}
+
 /* Used for: Homepage carousel, destination page titles */
 
 h2,
@@ -1221,9 +1226,9 @@ a:hover .info-card .svg-arrow {
     color: var(--color-white) !important;
     list-style: none;
 }
-.footer {
-  padding-left:70px;
-  padding-right:70px;  
+.footer-container {
+    padding-left:70px;
+    padding-right:70px;	
 }
 
 .footer h2 {
