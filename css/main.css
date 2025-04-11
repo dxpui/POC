@@ -884,7 +884,7 @@ button.accordion-button.accordion-head {
     padding: 20px 20px 30px 30px;
 }
 
-.blue-bg .accordian-panel .accordion-button:not(.collapsed)::after {
+.accordian-panel .accordion-button:not(.collapsed)::after {
     background-image: url("../assets/img/web-icons/Accordion\ contract.svg");
     font-size: 2.5rem;
     color: var(--color-default);
@@ -897,12 +897,6 @@ button.accordion-button.accordion-head {
     color: var(--color-default);
     background-size: 48px 48px;
     padding: 20px 20px 30px 30px;
-}
-
-.accordian-panel .accordion-button:not(.collapsed)::after {
-    background-image: url("../assets/img/web-icons/Accordion contract - blue.svg");
-    font-size: 2.5rem;
-    color: var(--color-default);
 }
 
 .accordian-panel {
@@ -972,31 +966,41 @@ button.accordion-button.accordion-head {
     background-color: var(--color-light-gray);
 }
 
-.blue-bg .accordion-item .accordion-button,
-.blue-bg .accordion-item .accordion-header .accordion-button {
-    background-color: var(--color-default);
+.burgundy-bg .accordion-item .accordion-button,
+.burgundy-bg .accordion-item .accordion-header .accordion-button {
+    background-color: var(--color-burgundy);
     color: var(--color-white) !important;
 }
 
-.blue-bg .accordian-panel .accordion-header:hover .accordion-button.collapsed,
-.blue-bg .accordian-panel .accordion-header .accordion-button.collapsed:focus {
-    background-color: var(--color-default);
+.burgundy-bg .accordian-panel .accordion-header:hover .accordion-button.collapsed,
+.burgundy-bg .accordian-panel .accordion-header .accordion-button.collapsed:focus {
+    background-color: var(--color-burgundy);
     color: var(--color-white);
 }
 
-.blue-bg .accordian-panel {
+.burgundy-bg .accordian-panel {
     border-top: 1px solid var(--color-white) !important;
 }
 
-.blue-bg .accordian-panel .card-body,
-.blue-bg .accordian-panel :not(.show) .card-body {
-    background-color: #303067 !important;
+.burgundy-bg .accordian-panel .card-body,
+.burgundy-bg .accordian-panel :not(.show) .card-body {
+    background-color: #B96698 !important;
     color: var(--color-white) !important;
 }
 
-.blue-bg .accordian-panel .accordion-button:not(.collapsed) {
+.burgundy-bg .accordian-panel .accordion-button:not(.collapsed) {
     animation: none;
-    background-color: #303067;
+    background-color: #B96698;
+}
+
+.burgundy-bg .accordian-panel:last-child {
+    border-bottom: 1px solid #FFF !important;
+}
+
+.burgundy-bg .accordian-panel .accordion-button:not(.collapsed)::after {
+    background-image: url("../assets/img/web-icons/Accordion contract - burgundy.svg");
+    font-size: 2.5rem;
+    color: var(--color-default);
 }
 
 .white-bg .accordion-item .accordion-header .accordion-button.collapsed[aria-expanded="true"] {
@@ -1519,7 +1523,7 @@ table td {
     }
 
     .checker-container.left {
-        margin-top: 67px;
+       /* margin-top: 67px;*/
     }
 
     .checker-container.right {
