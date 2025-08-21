@@ -72,10 +72,15 @@
                 </p>
 
                 <div class="d-flex justify-content-center align-items-center border-gray p-4"><span
-                    class="fs-32">OSAXXXYZ123</span> <a href="" class="ms-2" style="font-size: 24px;">
-                    <span class="visually-hidden-focusable">Copy Text</span>
-                    <i class="fa-regular fa-copy"></i>
-                  </a></div>
+                    class="fs-32">OSAXXXYZ123</span> 
+					<a href="javascript:showMessage()" class="ms-2 copy-clipboard copy-icon" style="font-size: 24px;">
+                            <span class="visually-hidden-focusable">Copy Text</span>
+                            <i class="fa-regular fa-copy"></i>
+                        </a>
+						
+						<span class="ms-3" id="message" role="status" aria-atomic="true"></span>
+					
+					</div>
 
 
                 <div class="mt-5">
@@ -165,6 +170,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+	
+	<script>
+	
+	function showMessage() {
+	  document.getElementById("message").innerHTML = "Copied";
+	 
+    }
+	</script>
 
 </body>
 
